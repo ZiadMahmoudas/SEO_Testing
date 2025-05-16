@@ -21,34 +21,20 @@ a{
 }
 p,h1,h2,h3,h4,h5,h6,li,ul{margin-bottom: 0;}
 @font-face {
-  font-family: 'Cairo';
-  src: url('fonts/Cairo-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-display: swap;
+    font-family: light;
+    src: url(../fonts/Cairo-Light.ttf);
 }
 @font-face {
-  font-family: 'Cairo';
-  src: url('fonts/Cairo-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-display: swap;
+    font-family: Medium;
+    src: url(../fonts/Cairo-Medium.ttf);
 }
 @font-face {
-  font-family: 'Cairo';
-  src: url('fonts/Cairo-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-display: swap;
+    font-family: Regular;
+    src: url(../fonts/Cairo-Regular.ttf);
 }
 @font-face {
-  font-family: 'Cairo';
-  src: url('fonts/Cairo-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Cairo';
-  src: url('fonts/Cairo-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-display: swap;
+    font-family: SemiBold;
+    src: url(../fonts/Cairo-SemiBold.ttf);
 }
 .navbar-brand{
     margin-right: 0;
@@ -83,7 +69,7 @@ color: #FFFFFF;
 .navbar-nav .nav-link{
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: 600;
+    font-family: Semibold;
     transition: 0.3s ease-in-out all;
     position: relative;
 }
@@ -117,7 +103,7 @@ color: #FFFFFF;
 .navbar .btn1 {
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: 500;
+    font-family: Medium;
 }
 .swap-nav {
     display: flex;
@@ -169,24 +155,24 @@ padding-block: 18px;
 .hero-content p{
     color: #fff;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-family: SemiBold;
 }
 .hero-content p:nth-child(3){
     color: #fff;
     font-size: 1rem;
-    font-weight: 400;
+    font-family: Regular;
     text-align: center;
 }
 .hero-content h1{
     color: #fff;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-family: SemiBold;
     text-align: center;
 }
 .btn2 {
     color: #FFFFFF;
     font-size: 1rem;
-    font-weight: 600;
+    font-family: SemiBold;
 }
 .btn2{
     padding: 17px 20px !important;
@@ -208,7 +194,7 @@ padding-block: 18px;
 }
 .prog h2{
     color: #15AA94;
-    font-weight: 600;
+    font-family: SemiBold;
     font-size: 1.75rem;
 
 }
@@ -220,14 +206,14 @@ padding-block: 18px;
 }
 .feature {
     font-size: 1.25rem;
-    font-weight: 600;
+    font-family: SemiBold;
     color: #15AA94;
     text-align: end;
 }
 .feature p{
     color: #FEFFFF;
     font-size: 1rem;
-    font-weight: 500;
+    font-family: Medium;
 }
 .visit{
     display: flex;
@@ -241,14 +227,14 @@ padding-block: 18px;
 }
 .visit .follow h4{
     font-size: 1.25rem;
-    font-weight: 600;
+    font-family: SemiBold;
     color: #15AA94;
     text-align: center;
 }
 .visit .follow p{
     color: #FEFFFF;
     font-size: 1rem;
-    font-weight: 500;
+    font-family: Medium;
 }
 .btn4 button{
     background-color: transparent !important;
@@ -276,7 +262,7 @@ justify-content:  flex-end;
 }
 .rows .btn3 button ,.btn4 button {
     font-size: 1rem;
-    font-weight: 500;
+    font-family: Medium;
 }
 .btn4 button span:nth-child(1){
     color: #FFFFFF;
@@ -292,7 +278,7 @@ color: #15AA94;
 .check h2{
     font-size: 2.75rem;
     color: #15AA94;
-    font-weight: 600;
+    font-family: SemiBold;
 }
 .for .min{
     display: flex;
@@ -312,7 +298,7 @@ color: #15AA94;
 .min p{
     color: #001F3E;
     font-size: 1rem;
-    font-weight: 600;
+    font-family: SemiBold;
 }
 .min  i{
     font-size: 1rem;
@@ -324,7 +310,7 @@ color: #15AA94;
 }
 .check button {
     color: #fff;
-    font-weight: 500;
+    font-family: Medium;
     font-size: 1rem;
 }
 footer{
@@ -333,7 +319,7 @@ footer{
 }
 .not p {
     font-size: 1rem;
-    font-weight: 300;
+    font-family: light;
     color: #fff;
 }
 .comp{
@@ -358,7 +344,7 @@ footer{
 .whats {
     font-size:1.25rem;
     color: #fff;
-    font-weight: 600;
+    font-family: SemiBold;
 }
 .whats button{
     display: flex;
@@ -373,7 +359,7 @@ footer{
 }
 .whats button {
     font-size: 1.4375rem;
-   font-weight: 600;
+    font-family: SemiBold;
 }
 .foot hr{
   color: #fff;
