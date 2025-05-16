@@ -56,7 +56,8 @@ body{
 }
 
 .navbar .btn1,.btn2,.check button{
-    background-color: #16AA94;
+  background-color: #0E7665;
+color: #FFFFFF;
     padding: 12px 32px;
     border-radius: 6px;
 }
