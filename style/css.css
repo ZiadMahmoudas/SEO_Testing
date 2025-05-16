@@ -98,7 +98,7 @@ body{
 .navbar-nav .nav-link.active{
     color: #16AA94;
 }
-.navbar .btn1 span{
+.navbar .btn1 {
     color: #FFFFFF;
     font-size: 1rem;
     font-family: Medium;
@@ -167,7 +167,7 @@ padding-block: 18px;
     font-family: SemiBold;
     text-align: center;
 }
-.btn2 span{
+.btn2 {
     color: #FFFFFF;
     font-size: 1rem;
     font-family: SemiBold;
@@ -256,10 +256,10 @@ padding-block: 18px;
     display: flex;
 justify-content:  flex-end;
 }
-.rows .btn3 button span{
+.rows .btn3 button {
     color: #FFFFFF;
 }
-.rows .btn3 button span,.btn4 button span{
+.rows .btn3 button ,.btn4 button {
     font-size: 1rem;
     font-family: Medium;
 }
@@ -299,7 +299,7 @@ color: #15AA94;
     font-size: 1rem;
     font-family: SemiBold;
 }
-.min span i{
+.min  i{
     font-size: 1rem;
     color: #fff;
 }
@@ -308,7 +308,7 @@ color: #15AA94;
     padding: 12px 32px;
     border-radius: 6px;
 }
-.check button span{
+.check button {
     color: #fff;
     font-family: Medium;
     font-size: 1rem;
@@ -357,7 +357,7 @@ footer{
 .whats button i{
     font-size: 1.4375rem;
 }
-.whats button span{
+.whats button {
     font-size: 1.4375rem;
     font-family: SemiBold;
 }
@@ -390,7 +390,7 @@ footer{
     .hero-content p:nth-child(3){
         font-size: 1rem;
     }
-    .btn2 span{
+    .btn2 {
         font-size: 1.125rem;
     }
     .btn2{
