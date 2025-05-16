@@ -180,9 +180,9 @@ padding-block: 18px;
 
 .pic{
    height: 102vh;
-   
+   width: 100%;
     position: relative;
-    background-image: url(../img/HeroSection.png);
+    background-image: url(../img/HeroSection.webp);
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -370,7 +370,7 @@ footer{
         font-size: 16px;
     }
     .pic{
-        height: 106vh;
+        height: 115vh;
     }     
     .swap-nav {
         display: flex;
