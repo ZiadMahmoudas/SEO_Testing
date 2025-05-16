@@ -203,7 +203,7 @@ padding-block: 18px;
     align-items: flex-end;
     gap: 12px;
 }
-.feature h6{
+.feature {
     font-size: 1.25rem;
     font-family: SemiBold;
     color: #15AA94;
@@ -341,7 +341,7 @@ footer{
     justify-content: center;
     gap: 15px;
 }
-.whats h5{
+.whats {
     font-size:1.25rem;
     color: #fff;
     font-family: SemiBold;
