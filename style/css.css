@@ -1,4 +1,7 @@
 *{box-sizing: border-box;padding: 0;margin: 0;}
+body {
+  font-family: 'Cairo', sans-serif;
+}
 html{
     font-size: 14px;
 }
@@ -19,21 +22,19 @@ a{
     background-color: rgb(10, 186, 240);
 }
 p,h1,h2,h3,h4,h5,h6,li,ul{margin-bottom: 0;}
-@font-face {
-    font-family: light;
-    src: url(../fonts/Cairo-Light.ttf);
+.regular-text{
+    font-weight: 400;
 }
-@font-face {
-    font-family: Medium;
-    src: url(../fonts/Cairo-Medium.ttf);
+.light-text {
+  font-weight: 300;
 }
-@font-face {
-    font-family: Regular;
-    src: url(../fonts/Cairo-Regular.ttf);
+
+.medium-text {
+  font-weight: 500;
 }
-@font-face {
-    font-family: SemiBold;
-    src: url(../fonts/Cairo-SemiBold.ttf);
+
+.bold-text {
+  font-weight: 600;
 }
 .navbar-brand{
     margin-right: 0;
@@ -68,7 +69,7 @@ color: #FFFFFF;
 .navbar-nav .nav-link{
     color: #FFFFFF;
     font-size: 1rem;
-    font-family: Semibold;
+    font-weight: 600;
     transition: 0.3s ease-in-out all;
     position: relative;
 }
@@ -102,7 +103,7 @@ color: #FFFFFF;
 .navbar .btn1 {
     color: #FFFFFF;
     font-size: 1rem;
-    font-family: Medium;
+    font-weight: 500;
 }
 .swap-nav {
     display: flex;
@@ -154,24 +155,24 @@ padding-block: 18px;
 .hero-content p{
     color: #fff;
     font-size: 1.1rem;
-    font-family: SemiBold;
+    font-weight: 600;
 }
 .hero-content p:nth-child(3){
     color: #fff;
     font-size: 1rem;
-    font-family: Regular;
+    font-weight: 400;
     text-align: center;
 }
 .hero-content h1{
     color: #fff;
     font-size: 1.5rem;
-    font-family: SemiBold;
+    font-weight: 600;
     text-align: center;
 }
 .btn2 {
     color: #FFFFFF;
     font-size: 1rem;
-    font-family: SemiBold;
+    font-weight: 600;
 }
 .btn2{
     padding: 17px 20px !important;
@@ -193,7 +194,7 @@ padding-block: 18px;
 }
 .prog h2{
     color: #15AA94;
-    font-family: SemiBold;
+    font-weight: 600;
     font-size: 1.75rem;
 
 }
@@ -205,14 +206,14 @@ padding-block: 18px;
 }
 .feature {
     font-size: 1.25rem;
-    font-family: SemiBold;
+    font-weight: 600;
     color: #15AA94;
     text-align: end;
 }
 .feature p{
     color: #FEFFFF;
     font-size: 1rem;
-    font-family: Medium;
+    font-weight: 500;
 }
 .visit{
     display: flex;
@@ -226,14 +227,14 @@ padding-block: 18px;
 }
 .visit .follow h4{
     font-size: 1.25rem;
-    font-family: SemiBold;
+    font-weight: 600;
     color: #15AA94;
     text-align: center;
 }
 .visit .follow p{
     color: #FEFFFF;
     font-size: 1rem;
-    font-family: Medium;
+    font-weight: 500;
 }
 .btn4 button{
     background-color: transparent !important;
@@ -261,7 +262,7 @@ justify-content:  flex-end;
 }
 .rows .btn3 button ,.btn4 button {
     font-size: 1rem;
-    font-family: Medium;
+    font-weight: 500;
 }
 .btn4 button span:nth-child(1){
     color: #FFFFFF;
@@ -277,7 +278,7 @@ color: #15AA94;
 .check h2{
     font-size: 2.75rem;
     color: #15AA94;
-    font-family: SemiBold;
+    font-weight: 600;
 }
 .for .min{
     display: flex;
@@ -297,7 +298,7 @@ color: #15AA94;
 .min p{
     color: #001F3E;
     font-size: 1rem;
-    font-family: SemiBold;
+    font-weight: 600;
 }
 .min  i{
     font-size: 1rem;
@@ -309,7 +310,7 @@ color: #15AA94;
 }
 .check button {
     color: #fff;
-    font-family: Medium;
+    font-weight: 500;
     font-size: 1rem;
 }
 footer{
@@ -318,7 +319,7 @@ footer{
 }
 .not p {
     font-size: 1rem;
-    font-family: light;
+    font-weight: 300;
     color: #fff;
 }
 .comp{
@@ -343,7 +344,7 @@ footer{
 .whats {
     font-size:1.25rem;
     color: #fff;
-    font-family: SemiBold;
+    font-weight: 600;
 }
 .whats button{
     display: flex;
@@ -358,7 +359,7 @@ footer{
 }
 .whats button {
     font-size: 1.4375rem;
-    font-family: SemiBold;
+   font-weight: 600;
 }
 .foot hr{
   color: #fff;
