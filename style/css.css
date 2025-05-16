@@ -55,7 +55,7 @@ body{
     background-color: #001F3E;
 }
 
-.navbar .btn1{
+.navbar .btn1,.btn2,.check button{
     background-color: #16AA94;
     padding: 12px 32px;
     border-radius: 6px;
@@ -173,9 +173,8 @@ padding-block: 18px;
     font-family: SemiBold;
 }
 .btn2{
-    background-color: #16AA94;
-    padding: 17px 20px;
-    border-radius: 16px;
+    padding: 17px 20px !important;
+    border-radius: 16px !important;
 }
 
 .pic{
@@ -304,9 +303,8 @@ color: #15AA94;
     color: #fff;
 }
 .check button{
-    background-color: #16AA94;
-    padding: 12px 32px;
-    border-radius: 6px;
+    padding: 12px 32px !important;
+    border-radius: 6px !important;
 }
 .check button {
     color: #fff;
@@ -392,8 +390,6 @@ footer{
     }
     .btn2 {
         font-size: 1.125rem;
-    }
-    .btn2{
         padding: 17px 40px;
     }
     .prog{
