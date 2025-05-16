@@ -23,18 +23,30 @@ p,h1,h2,h3,h4,h5,h6,li,ul{margin-bottom: 0;}
 @font-face {
     font-family: light;
     src: url(../fonts/Cairo-Light.ttf);
+      font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
     font-family: Medium;
     src: url(../fonts/Cairo-Medium.ttf);
+      font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
     font-family: Regular;
     src: url(../fonts/Cairo-Regular.ttf);
+      font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
     font-family: SemiBold;
     src: url(../fonts/Cairo-SemiBold.ttf);
+      font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 .navbar-brand{
     margin-right: 0;
