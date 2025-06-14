@@ -49,6 +49,10 @@ p,h1,h2,h3,h4,h5,h6,li,ul{margin-bottom: 0;}
   font-style: normal;
   font-display: swap;
 }
+img {
+  aspect-ratio: attr(width) / attr(height);
+  object-fit: cover;
+}
 .navbar-brand{
     margin-right: 0;
 }
