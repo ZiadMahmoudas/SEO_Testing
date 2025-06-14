@@ -203,6 +203,7 @@ padding-block: 18px;
     background-image: url(../img/HeroSection.webp);
     background-position: center center;
     background-repeat: no-repeat;
+     background-size: cover;
 }
 .prog{
     display: flex;
