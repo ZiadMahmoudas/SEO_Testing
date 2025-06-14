@@ -49,10 +49,7 @@ p,h1,h2,h3,h4,h5,h6,li,ul{margin-bottom: 0;}
   font-style: normal;
   font-display: swap;
 }
-img {
-  aspect-ratio: attr(width) / attr(height);
-  object-fit: cover;
-}
+
 .navbar-brand{
     margin-right: 0;
 }
@@ -272,7 +269,7 @@ padding-block: 18px;
 }
 .rows .btn3,.btn4 {
     display: flex;
-justify-content:  flex-end;
+justify-content:  space-evenly;
 }
 .rows .btn3 button {
     color: #FFFFFF;
